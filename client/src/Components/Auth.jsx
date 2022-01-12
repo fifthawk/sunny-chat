@@ -32,7 +32,7 @@ const Auth = () => {
 
     const { fullName, username, password, phoneNumber, avatarURL } = form;
 
-    const URL = "https://sunnychat.vercel.app/auth";
+    const URL = "sunny-chat.netlify.app";
 
     const {
       data: { token, userId, hashedPassword },
