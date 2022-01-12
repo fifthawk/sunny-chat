@@ -32,7 +32,7 @@ const Auth = () => {
 
     const { fullName, username, password, phoneNumber, avatarURL } = form;
 
-    const URL = "/auth";
+    const URL = "https://sunny-chat.herokuapp.com/authauth";
 
     const {
       data: { token, userId, hashedPassword },
