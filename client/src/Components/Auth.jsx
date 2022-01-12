@@ -32,7 +32,7 @@ const Auth = () => {
 
     const { fullName, username, password, phoneNumber, avatarURL } = form;
 
-    const URL = "";
+    const URL = "/auth";
 
     const {
       data: { token, userId, hashedPassword },
