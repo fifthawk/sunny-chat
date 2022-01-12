@@ -10,7 +10,7 @@ const ChannelContainer = ({
   createType,
   setIsEditing,
 }) => {
-  const { channel } = useChatContext();
+  // const { channel } = useChatContext();
 
   if (isCreating) {
     return (
