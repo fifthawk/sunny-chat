@@ -32,7 +32,7 @@ const Auth = () => {
 
     const { fullName, username, password, phoneNumber, avatarURL } = form;
 
-    const URL = "sunny-chat.netlify.app";
+    const URL = "";
 
     const {
       data: { token, userId, hashedPassword },
