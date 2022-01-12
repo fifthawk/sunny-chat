@@ -32,7 +32,7 @@ const Auth = () => {
 
     const { fullName, username, password, phoneNumber, avatarURL } = form;
 
-    const URL = "https://sunny-chat.vercel.app/auth";
+    const URL = "https://sunny-chat.vercel.app";
 
     const {
       data: { token, userId, hashedPassword },
