@@ -34,7 +34,7 @@ const Auth = () => {
 
     const URL = "https://sunny-chat.herokuapp.com/auth";
 
-const { data: { token, userId, hashedPassword, fullName } } = await axios.post(`${URL}/${isSignup ? 'signup' : 'login'}`, {
+const { data: { token, userId, hashedPassword, fullName } } = await axios.post(`${URL}/${isSignUp ? 'signup' : 'login'}`, {
             username, password, fullName: form.fullName, phoneNumber, avatarURL,
         });
 
@@ -43,7 +43,7 @@ const { data: { token, userId, hashedPassword, fullName } } = await axios.post(`
         cookies.set('fullName', fullName);
         cookies.set('userId', userId);
 
-        if(isSignup) {
+        if(isSignUp) {
             cookies.set('phoneNumber', phoneNumber);
             cookies.set('avatarURL', avatarURL);
             cookies.set('hashedPassword', hashedPassword);
