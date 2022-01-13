@@ -30,7 +30,7 @@ const Auth = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const { fullName, username, password, phoneNumber, avatarURL } = form;
+ const { username, password, phoneNumber, avatarURL } = form;
 
     const URL = "https://sunny-chat.herokuapp.com/auth";
 
