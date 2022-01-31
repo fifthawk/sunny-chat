@@ -1,6 +1,6 @@
-Sunny Chat ☀️
+<h1>Sunny Chat ☀️</h1>
 
-Come chat with your friends!
+<p>Come chat with your friends!</p>
 
 <a href="https://ibb.co/rfzppgq"><img src="https://i.ibb.co/0V699k1/Screen-Shot-2022-01-31-at-2-16-43-PM.png" alt="Screen-Shot-2022-01-31-at-2-16-43-PM" border="0"></a>
 
