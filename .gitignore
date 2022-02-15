@@ -14,5 +14,6 @@ thumb
 sketch
 
 .env.local
+.env
 
 .sdaa
