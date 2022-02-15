@@ -9,10 +9,11 @@ import { ChannelListContainer, ChannelContainer, Auth } from "./Components";
 
 const cookies = new Cookies();
 
-//const apiKey = process.env.STREAM_API_KEY;
+const api_key = "zj7hytftmzb4";
+
 const authToken = cookies.get("token");
 
-const client = StreamChat.getInstance("rqrffv3xq29p");
+const client = StreamChat.getInstance(api_key);
 
 if (authToken) {
   client.connectUser(

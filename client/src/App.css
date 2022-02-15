@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #aed49c;
-    --primary-color-alpha: #005fff1a;
+    --primary-color: #757469;
+    --primary-color-alpha: #F7B32B;
   }
   
   html,
@@ -26,7 +26,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-    background: #070505b4;
+    background: var(--primary-color);
   }
   
   .auth__form-container_image {
@@ -55,7 +55,7 @@
   .auth__form-container_fields-content p {
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
-    color: #05245a;
+    color: #2D1E2F;
     font-weight: 900;
   }
   
@@ -119,8 +119,8 @@
   
   .auth__form-container_fields-content_button button {
     border-radius: 4px;
-    background: #005fff;
-    border: 1.1px solid #005fff;
+    background: var(--primary-color);
+    border: 1.1px solid #1c1c1d;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -131,7 +131,8 @@
   }
   
   .auth__form-container_fields-content_button button:hover {
-    background: #0066ff;
+    background: #75746986;
+    border: 1.1px solid #e92929d5;
   }
   
   .auth__form-container_fields-account {
@@ -441,7 +442,7 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 28px;
-    color: #ffffff;
+    color: #000000;
   }
   
   .channel-search__container {
@@ -478,14 +479,14 @@
   .channel-search__input__text {
     background: none;
     border: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-family: Helvetica Neue, sans-serif;
     font-size: 16px;
     outline: none;
   }
   
   ::placeholder {
-    color: rgba(255, 255, 255, 0.66);
+    color: #000000;
     white-space: nowrap;
     width: 150px;
   }
@@ -494,8 +495,8 @@
     position: absolute;
     height: fit-content;
     width: 300px;
-    background: #fff;
-    border: 1px solid #e9e9ea;
+    background: #b4b8b5;
+    border: 1px solid #ad9462;
     box-sizing: border-box;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
@@ -513,7 +514,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 120%;
-    color: #858688;
+    color: #2D1E2F;
     margin-left: 12px;
   }
   
@@ -570,7 +571,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 120%;
-    color: #2c2c30;
+    color: #2D1E2F;
   }
   
   .create-channel__container {
@@ -679,7 +680,7 @@
     font-family: Helvetica Neue, sans-serif;
     font-size: 14px;
     line-height: 17px;
-    color: #858688;
+    color: #2D1E2F;
     margin-top: 16px;
   }
   
@@ -1711,7 +1712,7 @@
     display: none;
     height: 50px;
     width: 50px;
-    background: #005fff;
+    background: #2a2c2e;
     position: absolute;
     right: -2%;
     top: 50%;
@@ -1737,7 +1738,7 @@
   
   @media screen and (max-width: 960px) {
     .channel-list__container {
-      display: none;
+      display: flex;
     }
   
     .team-channerl-header_menu-icon {
@@ -1772,10 +1773,14 @@
   
     .channel-list__container-responsive {
       display: flex;
+      background-color: var(--primary-color) !important;
     }
   
     .channel-list__list__wrapper {
-      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background: var(--primary-color);
+      width: auto;
     }
   
     .channerl-list__container-toggle {
